@@ -1,0 +1,21 @@
+# TODO:
+
+- hacer el free energy landscape con un umbrella sampling
+- hacer un potencial mas complicado
+- hacer el free energy landscape con un adaptive sampling
+- hacer un potencial 1D multipozo
+- rehacer el potencial 2D del PLoS
+- hacer un potencial en 3D que sea una red de binding sites con gaussian wells y usarlo tambien como sistema
+- probar wham (wheighted histogram analysis method)
+- probar bar clasico (bennet acceptance ratio)
+- probar sobre el doble pozo el Multistate Markov model y el asistido por biased potentials.
+- probar el htmd sobre estos sistemas
+- probar los métodos de elastic band
+- hacer un modelo sencillo de muelles en cadena del que estiro... como si fuera un AFM con pulling
+- sacar la posición promedio x en el doble pozo y su varianza segun el numero de replicas y segun el número de iteraciones
+- habrá que usar wham con la replica cero del paralleltempering del doble pozo???
+- Mirar la probabilidad de estar en el pozo de la izquierda o el de la derecha.
+- sacar eso mismo con un unmbrella sampling
+- el paper original de MBAR tiene un ejemplo que puede servir para imaginar como saco el paisaje de energía libre
+- multiple histogram thecniques (citas 11-13,15 en el paper de MBAR)
+- probar MBAR con bins de igual anchura y con bins de igual número de cuentas.
